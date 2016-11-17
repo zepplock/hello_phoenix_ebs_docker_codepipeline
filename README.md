@@ -10,15 +10,15 @@
 
 Create a new EBS application called `hello_phoenix`
 
-![new_application](/screenshots/1.png)
+![new_application](/screenshots/01.png)
 
 Create a new environment using Docker platform. Choose a `Sample application` for now.
 
-![new_environment](/screenshots/2.png)
+![new_environment](/screenshots/02.png)
 
 Update configuration to have `ENV` `prod` under `Software Configuration`
 
-![env_prod](/screenshots/3.png)
+![env_prod](/screenshots/03.png)
 
 ## AWS CodePipeline configuration
 
@@ -42,7 +42,7 @@ Step 6: Review and click `Create pipeline`
 
 Upon successful pipeline creation you will see that it is getting code from GitHub and deploying. Make some tea and wait.
 
-![deployment](/screenshots/4.png)
+![deployment](/screenshots/04.png)
 
 ## Verify deployment
 
