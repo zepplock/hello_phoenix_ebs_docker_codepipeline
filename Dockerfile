@@ -1,4 +1,4 @@
-FROM trenpixster/elixir:1.3.0
+FROM trenpixster/elixir
 
 MAINTAINER Vladimir Reshetnikov <zepplock@vova.org>
 
@@ -24,6 +24,7 @@ RUN mix local.rebar --force
 RUN mix local.hex --force
 
 RUN mix compile
+RUN mix phoenix.digest
 
 COPY ./docker-entrypoint.sh /
 RUN chmod +x /docker-entrypoint.sh
