@@ -1,6 +1,8 @@
 <div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}", name: "Phoenix!" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+  <h2><%= gettext "Welcome to Phoenix application" %></h2>
+  <p class="lead">Runs on Elastic Beanstalk, Docker and CodePipeline.</p>
+  <p class="lead">No Ecto, No Brunch</p>
+  <p class="lead">No Ecto, No Brunch</p>
 </div>
 
 <div class="row marketing">
