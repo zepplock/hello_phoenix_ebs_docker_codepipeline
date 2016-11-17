@@ -2,7 +2,6 @@
   <h2><%= gettext "Welcome to Phoenix application" %></h2>
   <p class="lead">Runs on Elastic Beanstalk, Docker and CodePipeline.</p>
   <p class="lead">No Ecto, No Brunch</p>
-  <p class="lead">No Ecto, No Brunch</p>
 </div>
 
 <div class="row marketing">
