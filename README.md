@@ -1,5 +1,11 @@
 # HelloPhoenix On AWS Elastic Beanstalk, Docker, CodePipeline
 
+## Notable changes and limitations
+
+  - `prod.secret.exs` is not supported, please use ENV variables to confugure sensitive information, e.g. keys, tokens
+  - `No Ecto` - ecto is disabled but Docker container supports Ecto/Postgres, just uncomment 2 lines in `Dockerfile` and `docker-entrypoint.sh`
+  - `No brunch` - sorry no JS monkey business since this template is used for REST/JSON APIs, I will provide a working Webpack config later.
+
 ## AWS Elastic Beanstalk installation guide
 
 Create a new EBS application called `hello_phoenix`
